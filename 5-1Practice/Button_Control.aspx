@@ -10,6 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Button ID="btn_Sub" runat="server" Text="Submit" OnClick="btn_Sub_Click" /><br/>
+            <asp:Label ID="lb_Txt" runat="server" Text="I'm a Label"></asp:Label>
         </div>
     </form>
 </body>

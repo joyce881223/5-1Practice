@@ -10,5 +10,9 @@ namespace _5_1Practice {
         protected void Page_Load(object sender, EventArgs e) {
 
         }
+        protected void btn_Sub_Click(object sender, EventArgs e)
+        {
+            lb_Txt.Text = "這是個按鈕觸發Label標籤動作";
+        }
     }
 }
